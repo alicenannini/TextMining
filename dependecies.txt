@@ -1,0 +1,7 @@
+source env/bin/activate
+pip3 install -U nltk
+pip3 install -U numpy
+pip3 install -U scikit-learn scipy matplotlib
+pip3 install info_gain 							# https://github.com/Thijsvanede/info_gain.git
+pip3 install guess_language-spirit
+#pip install pattern3

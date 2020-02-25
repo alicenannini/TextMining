@@ -21,4 +21,3 @@ Executing the Wilcoxon test:
 
 Starting the GUI:
 >> python gui.py
-# TextMining
