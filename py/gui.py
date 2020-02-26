@@ -88,7 +88,7 @@ def startFunction(btn_stop, string):
 		current_timestamp = dateTimeObj.strftime("%Y-%m-%d %H:%M:%S")
 
 
-		command = 'sudo rm tweets.csv'
+		command = ' rm tweets.csv'
 		process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
 
 		# Download tweet
