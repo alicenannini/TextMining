@@ -1,18 +1,6 @@
 # ALLUVIONI: https://it.wikipedia.org/wiki/Alluvioni_e_inondazioni_in_Italia
 
-2019-11-23/24 Alessandria, Savona, Genova:
-twint -g="44.649075,8.648773,50km" --since 2019-11-22 --until 2019-11-26 -o liguria2019.csv --csv
-
-2019-11-12 Matera:
-twint -g="40.6646012,16.5650235,50km" --since 2019-11-11 --until 2019-11-14 -o matera2019.csv --csv
-
-2019-10-21/22 Alessandria, Genova:
-twint -g="44.649075,8.648773,50km" --since 2019-10-20 --until 2019-10-24 -o alessGenova2019.csv --csv
-
-2018-11-03 Palermo:
-twint -g="38.1405227,13.2870764,50km" --since 2018-11-02 --until 2018-11-05 -o palermo2018.csv --csv
-
-Casteldaccia:
+2018-11-03Casteldaccia:
 twint -g="38.0449165,13.5129324,25km" --since 2018-11-03 --until 2018-11-04 -o ./STAD/data/tmp/casteldaccia2018.csv --csv
 twint -g="38.0449165,13.5129324,25km" --since 2018-11-02 --until 2018-11-04 -o ./STAD/data/tmp/casteldaccia2018_1.csv --csv
 twint -g="38.0449165,13.5129324,25km" --since 2018-11-02 --until 2018-11-05 -o ./STAD/data/tmp/casteldaccia2018_2.csv --csv
